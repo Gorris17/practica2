@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+html {
+    background-color: #525659;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 1024px;
+    margin: 25px auto;
+    font-size: 15px;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 16px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 16px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 16px 2px rgba(0,0,0,0.75);
+}
+
+section {
+    margin: 10px 0px;
+}
+
+section:last-of-type {
+    margin-top: 30px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+h1 i {
+    vertical-align: bottom;
+    margin-right: 10px;
+    font-size: 26px;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 15px; 
+    color: #5490df;
+    margin-right: 5px;
+    font-weight: bolder;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size: 15px; 
+    font-weight: bolder;
+}
+
+header {
+    color: #000;
+    height: 100px;
+    background-color: #f2f2f2;
+    height: 170px;
+}
+
+header img {
+    border-radius: 50%;
+    width: 125px;
+    height: 125px;
+}
+
+header .title {
+    margin-top: 40px;
+}
+
+header .profile {
+    display: inline-flex;
+    margin-top: 20px;
+}
+
+header .profile-info {
+    display: block;
+    margin: 0px 0px 0px 10px;
+}
+
+header .profile-info div {
+    display: flex;
+    margin-top: 5px;
+}
+
+header .profile-info .glyphicon {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+header span {
+    display: block;
+    line-height: 27px;
+    text-transform: uppercase;
+}
+
+header span#first-name {
+    color: #8db3e2;
+    font-size: 25px;
+}
+
+header span#second-name {
+    font-size: 30px;
+}
+
+header span#titulation {
+    color: #aea6a6;
+    font-size: 20px;
+}
+
+.list-work-experience {
+    margin-right: 30px;
+}
+
+.list-work-experience ul {
+    padding-left: 26px;
+}
+
+.work .title {
+    display: inline-flex;
+}
+
+.work .work-experience {
+    padding: 20px 20px 0px 0px;
+}
+
+.date {
+    font-weight: bolder;
+}
+
+.progress-box {
+    margin-top: 35px;
+}
+
+.image-custom {
+    width: 50px;
+    height: 50px;
+}
+
